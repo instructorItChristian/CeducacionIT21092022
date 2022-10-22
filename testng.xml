@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="edit.CeducacionIT21092022.laboratorio3"/>
+	      <class name="edit.CeducacionIT21092022.laboratorio2">
+		      <methods>
+			      <exclude name="buscarPalabraVersionChrome"></exclude>
+			      <exclude name="buscarPalabraFirefox"></exclude>
+			      
+		      </methods>
+	      </class>
+	      
+      <class name="edit.CeducacionIT21092022.AppTest"/>
+         <class name="edit.CeducacionIT21092022.laboratorio4">
+         <methods>
+         
+         <exclude name="buscarPalabra"></exclude>
+         </methods>
+         
+         </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
